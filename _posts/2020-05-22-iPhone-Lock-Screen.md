@@ -14,6 +14,6 @@ The idea behind the code is really simple.
 3) Colourise the art (optional)
 4) Take a screenshot of the desired iphone dimension
 
-<img src="pictures/hash.png/>
+<img src="pictures/whitehash.png" style="height:80%;" class="center">
 
 <script src="https://gist.github.com/cchanzl/07babb551e964ea347a726f44cf061f5.js"></script>
