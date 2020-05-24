@@ -17,7 +17,7 @@ The idea behind the code is really simple.
 </ol>
 
 
-<img src="/pictures/Whitehash.png" style="height:10%;" class="center">
+<img src="/pictures/Whitehash.png" style="height:10%;" class="center"/>
 <p style="text-align:center">ASCII art from http://patorjk.com</p>
 
 
