@@ -6,7 +6,8 @@ title: C++
 	<ul class="posts">
 	  {% for post in site.posts %}
 		{% if post.categories contains "cpp" %}
-	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br> <span>{{ post.date | date_to_string }}</span></li>
+	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br> 
+		<span style="font-size:0.5em;">{{ post.date | date_to_string }}</span></li>
 	  {% endif %}
 	  {% endfor %}
 	</ul>
