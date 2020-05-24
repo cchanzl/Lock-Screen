@@ -58,3 +58,9 @@ ul.posts li {
   margin-right: auto;
   width: 50%;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
