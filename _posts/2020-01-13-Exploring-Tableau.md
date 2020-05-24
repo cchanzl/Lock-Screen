@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Exploring Tableau"
+category: Tableau
 date: 2020-01-13
 ---
 
