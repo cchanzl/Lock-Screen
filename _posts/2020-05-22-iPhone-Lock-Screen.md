@@ -16,6 +16,6 @@ The idea behind the code is really simple.
   <li>Take a screenshot of the desired iphone dimension</li>
 </ol>
 
-<img src="/pictures/Whitehash.png" style="height:80%;" class="center">
+<img src="/pictures/Whitehash.png" style="height:50%;" class="center">
 
 <script src="https://gist.github.com/cchanzl/07babb551e964ea347a726f44cf061f5.js"></script>
