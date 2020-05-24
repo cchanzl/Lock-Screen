@@ -19,7 +19,7 @@ The idea behind the code is really simple.
   </li>
  
  <li>
-    <p> Apply colour to the font and background (optional) </p>
+    Apply colour to the font and background (optional)
  </li> 
   
  <li>
