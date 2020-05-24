@@ -18,4 +18,6 @@ The idea behind the code is really simple.
 
 <img src="/pictures/Whitehash.png" style="height:50%;" class="center">
 
+ASCII art from http://patorjk.com/software/taag/#p=display
+
 <script src="https://gist.github.com/cchanzl/07babb551e964ea347a726f44cf061f5.js"></script>
