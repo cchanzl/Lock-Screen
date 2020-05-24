@@ -11,11 +11,11 @@ The idea behind the code is really simple.
 
 <ol>
   <li>
-    <p> Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end) </p>
+    Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end) 
   </li>
   
   <li>
-    <p> Check the size of the art and position it on the console with the use of vectors </p>
+    Check the size of the art and position it on the console with the use of vectors
   </li>
  
  <li>
@@ -23,7 +23,7 @@ The idea behind the code is really simple.
  </li> 
   
  <li>
-    <p> Take a screenshot of the desired iphone dimension </p>
+    Take a screenshot of the desired iphone dimension
  </li>
   
 </ol>
