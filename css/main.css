@@ -29,6 +29,13 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+h1 {
+    top-margin: 1.0em;
+    font-size: 1.0em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
 p {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
