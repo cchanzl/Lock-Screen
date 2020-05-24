@@ -3,7 +3,9 @@ layout: default
 title: Tableau
 ---
 	<h1>{{ page.title }}</h1>
-<div class="blurb">
-	<h1>the coding wharf</h1>
-	<p>Just a place to unload codes or ideas and to gain practical experience in the process.</p>
-</div><!-- /.blurb -->
+	<ul class="tposts">
+
+	  {% for post in site.tposts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
