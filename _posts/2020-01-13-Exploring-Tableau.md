@@ -13,5 +13,5 @@ As a start, i would present a simple visualization of the market share of genera
 
 <iframe src="https://public.tableau.com/views/singaporeOverall/Player_GI?:showVizHome=no&:embed=true" width="710" height="400" frameborder="true"></iframe>
 
-<iframe src="https://public.tableau.com/views/singaporeOverall/TotalSingaporeMarketGWPSGD?:display_count=y&:origin=viz_share_link" width="710" height="400" frameborder="true"></iframe>
+<iframe src="https://public.tableau.com/views/singaporeOverall/TotalSingaporeMarketGWPSGD?:showVizHome=no&:embed=true" width="710" height="400" frameborder="true"></iframe>
 
