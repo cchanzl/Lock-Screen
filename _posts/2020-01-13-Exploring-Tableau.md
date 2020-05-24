@@ -9,4 +9,4 @@ Having minimal previous experience with Tableau and lots of experience manipulat
 
 As a start, i would present a simple visualization of the market share of general insurers in Singapore in 2016.
 
-<iframe src="https://public.tableau.com/views/singaporeOverall/Player_GI?:showVizHome=no&:embed=true" width="710" height="400"" frameborder="true"></iframe>
+<iframe src="https://public.tableau.com/views/singaporeOverall/Player_GI?:showVizHome=no&:embed=true" width="710" height="400" frameborder="true"></iframe>
