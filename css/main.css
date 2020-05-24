@@ -25,14 +25,13 @@ a:hover {
 }
 
 h1 {
-    margin-top: 0.5rem;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h2 {
     margin-top: 0.5rem;
-    font-size: 1.00em;
+    font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: 	#333;
     
@@ -68,7 +67,7 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: square;
+    list-style: none;
 }
 
 .center {
