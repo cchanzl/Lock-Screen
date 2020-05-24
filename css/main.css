@@ -16,8 +16,10 @@ nav ul li, footer ul li {
 }
 
 a {
+    margin-top: 1rem;
+    font-size: 1.25em;
     text-decoration: none;
-    color: #999;
+    color: 	#000000;
 }
 
 a:hover {
