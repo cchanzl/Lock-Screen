@@ -29,6 +29,15 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+a.post{
+    text-decoration: none;
+    color: #999;
+}
+
+a.post:hover {
+    text-decoration: underline;
+}
+
 h2 {
     top-margin: 3px;
     font-size: 15px;
