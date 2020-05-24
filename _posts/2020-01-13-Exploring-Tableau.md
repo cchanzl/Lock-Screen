@@ -5,7 +5,7 @@ category: Tableau
 date: 2020-01-13
 ---
 
-Having some experience with Tableau and lots of experience manipulating and collecting data, this seems to be a perfect opportunity to pick up new skills and put it to practical use. Through this, i hope to provide interesting insights and learn something through the process too. Of course, do feel free to provide feedback to how i can better present certain data!
+I have always been interested in presenting data in a straightforward and insightful manner. Having spent lots of time manipulating and collecting data and some previous experience with Tableau, blogging about visualisations seem to be a perfect opportunity to pick up new skills and put it to practical use. Through this, i hope to provide interesting insights and learn during this process. Of course, do feel free to provide feedback to how i can better present certain data!
 
 As a start, i would present a simple visualization of the market share of general insurers in Singapore.
 
