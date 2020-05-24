@@ -16,13 +16,22 @@ nav ul li, footer ul li {
 }
 
 a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b {
     margin-top: 1rem;
     font-size: 1.75em;
     text-decoration: none;
     color: 	#000000;
 }
 
-a:hover {
+b:hover {
     text-decoration: underline;
 }
 
@@ -30,7 +39,9 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h2 {
+
+date {
+    margin-top: 0.5rem;
     font-size: 1.00em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: 	#333;
