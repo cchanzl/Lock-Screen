@@ -11,19 +11,19 @@ The idea behind the code is really simple.
 
 <ol>
   <li>
-    Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end)
+    <p> Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end) </p>
   </li>
   
   <li>
-    Check the size of the art and position it on the console with the use of vectors
+    <p> Check the size of the art and position it on the console with the use of vectors </p>
   </li>
  
  <li>
-    Apply colour to the font and background (optional)
+    <p> Apply colour to the font and background (optional) </p>
  </li> 
   
  <li>
-    Take a screenshot of the desired iphone dimension
+    <p> Take a screenshot of the desired iphone dimension </p>
  </li>
   
 </ol>
