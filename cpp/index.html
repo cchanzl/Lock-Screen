@@ -8,7 +8,7 @@ title: C++
 		
 		{% if post.categories contains "cpp" %}
 		
-		<h2 href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </h2>
+		<a href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </a>
 		<h2>{{ post.date | date_to_string }}</h2>
 	  	
 		{% endif %}
