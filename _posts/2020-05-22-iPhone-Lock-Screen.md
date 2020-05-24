@@ -30,11 +30,12 @@ The idea behind the code is really simple.
 
 <div class="row">
   <div class="column">
-      <img src="/pictures/Whitehash.png" />
+      <img style="height:40%;" src="/pictures/Whitehash.png" />
   </div>
   <div class="column">
-      <img src="/pictures/greenhash.png" />
+      <img style="height:40%;" src="/pictures/greenhash.png" />
   </div>
+</div>
   
 <p style="text-align:center">ASCII art from http://patorjk.com</p>
 
