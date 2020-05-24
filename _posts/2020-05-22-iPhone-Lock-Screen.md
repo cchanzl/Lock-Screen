@@ -16,8 +16,10 @@ The idea behind the code is really simple.
   <li>Take a screenshot of the desired iphone dimension
 </ol>
 
-<img src="/pictures/Whitehash.png" style="height:50%;" class="center">
 
-<p style="text-align:center">ASCII art from http://patorjk.com/software/taag/#p=display</p>
+<img src="/pictures/Whitehash.png" style="height:10%;" class="center">
+<p style="text-align:center">ASCII art from http://patorjk.com</p>
+
+
 
 <script src="https://gist.github.com/cchanzl/07babb551e964ea347a726f44cf061f5.js"></script>
