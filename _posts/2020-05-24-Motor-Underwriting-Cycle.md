@@ -5,7 +5,7 @@ category: Tableau
 date: 2020-05-25
 ---
 
-In this post, i would use historical data from Singapore's motor insurace market to showcase the underwriting cycle experienced between 2005 to 2014. The data source supporting this visualisation is from the Monetary Authority of Singapore, bsaed on their collection of annual insurance returns of insurers in the local market. I would make another post on how to efficiently extract information from these insurance returns using Python.
+In this post, i would use historical data from Singapore's motor insurace market to showcase the underwriting cycle experienced between 2005 to 2014. The data source supporting this visualisation is from the Monetary Authority of Singapore, based on their collection of annual insurance returns of insurers in the local market. I would make another post on how to efficiently extract information from these insurance returns using Python.
 
 As we run through each financial year from 2005 onwards using the scroll bar below, we can see from the bottom graph that the market overall combined ratio increases to a peak of 121% in 2008 before decreasing to 86% in 2014. It is clear from this that the market had seen a full underwriting cycle between 2005 to 2014 (a period of ten years).
 
