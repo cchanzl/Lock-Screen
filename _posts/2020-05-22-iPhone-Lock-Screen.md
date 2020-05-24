@@ -10,10 +10,10 @@ So this mini-project began with the intent of updating my iphone lock screen wit
 The idea behind the code is really simple. 
 
 <ol>
-<li>Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end)</li>
-<li>Check the size of the art and position it on the console with the use of vectors/li>
-<li>Apply colour to the font and background (optional)/li>
-<li>Take a screenshot of the desired iphone dimension/li>
+  <li>Read from a text file which contains the desired ASCII Art (thanks to online ASCII art generators. Links at the end)</li>
+  <li>Check the size of the art and position it on the console with the use of vectors</li>
+  <li>Apply colour to the font and background (optional)</li>
+  <li>Take a screenshot of the desired iphone dimension</li>
 </ol>
 
 <img src="pictures/whitehash.png" style="height:80%;" class="center">
