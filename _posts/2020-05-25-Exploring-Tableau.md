@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tpost
 title: "Exploring Tableau"
 date: 2020-01-13
 ---
