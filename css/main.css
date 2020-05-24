@@ -29,12 +29,12 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-a.post{
+a.two{
     text-decoration: none;
     color: #999;
 }
 
-a.post:hover {
+a.two:hover {
     text-decoration: underline;
 }
 
