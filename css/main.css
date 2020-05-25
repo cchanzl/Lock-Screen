@@ -21,7 +21,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    font-family:'Arial';
+    background:#999;
+    color: #fff;
 }
 
 h1 {
