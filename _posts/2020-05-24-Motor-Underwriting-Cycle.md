@@ -13,7 +13,7 @@ Looking at the top graph, we can focus on individual insurers and their respecti
 
 Isolating AIG for example, we can see that it started off in 2005 with a Motor combined ratio of 90% and a Motor market share of 24%. This changed to a combined ratio of 123% and a Motor market share of 26% by 2007. By 2014, their market share was 16%, with a combined ratio of 98%.
 
-Adding in a time dimension to the graph allows us to further understand which insurer reacted fastest and strongest to market trends. For example, Tokio Marine Insuranc's combined ratio improved a whooping 148% to 111% from 2008 to 2009 which is above market movement in the same year. Between 2008 and 2009 was also when we could every major market player making some sort of strategic adjustments, resulting in significant improvement acros indivdiual performance.
+Adding in a time dimension to the graph allows us to further understand which insurer reacted fastest and strongest to market trends. For example, Tokio Marine Insuranc's combined ratio improved a whooping 148% to 111% from 2008 to 2009 which is above market movement in the same year. Between 2008 and 2009 was also when we observed every major market player making some sort of strategic adjustment, resulting in significant improvement across individual performance.
 
 <iframe src="https://public.tableau.com/shared/T5R4BT6RP?:showVizHome=no&:embed=true" width="900" height="2000" frameborder="true"></iframe>
 Note that the visualisation only contains performance for the top ten motor insurers during the period.
