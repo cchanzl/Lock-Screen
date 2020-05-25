@@ -38,8 +38,10 @@ a.two{
 }
 
 a.two:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-family:'Arial';
+    background:#333;
+    color: #fff;
 }
 
 h2 {
