@@ -36,12 +36,14 @@ a.two{
 
 a.two:hover {
     text-decoration: underline;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h2 {
     top-margin: 3px;
-    font-size: 15px;
+    font-size: 10px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #999;
 }
 
 
