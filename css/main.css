@@ -107,3 +107,7 @@ ul.posts li {
   clear: both;
   display: table;
 }
+
+.imgContainer{
+    float:left;
+}
