@@ -31,9 +31,10 @@ The idea behind the code is really simple.
 <div id="images">
       <img class="iphone" src="/pictures/Whitehash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
       <img class="iphone" src="/pictures/greenhash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
+      <p style="text-align:center">ASCII art from http://patorjk.com</p>
 </div>
   
-<p style="text-align:center">ASCII art from http://patorjk.com</p>
+
 
 
 
