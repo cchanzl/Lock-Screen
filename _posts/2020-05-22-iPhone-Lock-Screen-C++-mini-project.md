@@ -28,13 +28,9 @@ The idea behind the code is really simple.
   
 </ol>
 
-<div class="row">
-  <div class="imgContainer">
-      <img src="/pictures/Whitehash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
-  </div>
-  <div class="imgContainer">
-      <img src="/pictures/greenhash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
-  </div>
+<div id="images">
+      <img class="iphone" src="/pictures/Whitehash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
+      <img class="iphone" src="/pictures/greenhash.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
 </div>
   
 <p style="text-align:center">ASCII art from http://patorjk.com</p>
