@@ -30,10 +30,10 @@ The idea behind the code is really simple.
 
 <div class="row">
   <div class="column">
-      <img style="height:40%;" src="/pictures/Whitehash.png" />
+      <img src="/pictures/Whitehash.png" style="width: auto; height: auto;max-width: 750px;max-height: 750px" />
   </div>
   <div class="column">
-      <img style="height:40%;" src="/pictures/greenhash.png" />
+      <img src="/pictures/greenhash.png" style="width: auto; height: auto;max-width: 750px;max-height: 750px" />
   </div>
 </div>
   
