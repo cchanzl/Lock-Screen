@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iPhone Lock Screen C++ mini project"
+title: "Lock Screen C++ mini project"
 category: cpp
 date: 2020-05-20
 ---
