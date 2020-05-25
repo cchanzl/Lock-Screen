@@ -96,18 +96,13 @@ ul.posts li {
   width: 50%;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
+.iphone {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.imgContainer{
-    float:left;
+#images{
+   text-align:center;
 }
