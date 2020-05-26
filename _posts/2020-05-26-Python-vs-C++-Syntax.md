@@ -26,4 +26,4 @@ Of course, there are exceptions to this general rule, such as when you require m
 <b> End of indentation is end of block </b>
 <br>
 
-To be updated...
+The last syntax difference covered in this post is similar to the previous one. Blocks of codes in C++ are not indentation sensitive or explicitly required. In Python however, consistent indentation of all statements in a given nested block <b> the same distance </b> to the right is necessary such that Python can determine where the block starts and stops. This is a huge win for code readability and a good habit that i would commit to when programming in C++ as well.
