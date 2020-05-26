@@ -9,7 +9,7 @@ Having started my programming journey with a lower-level language like C++, movi
 
 However, when it comes to Python's syntax, 3 main differences stood out for me which i would summarise below. 
 
-These 3 syntax differences are discussed in greater detail in the book "Learning Python, Fifth Edition" by Mark Lutz at the start of Chapter 10. This is a book that I would strongly recommend to any beginner when starting their Python journey.
+These 3 syntax differences are discussed in greater detail in the book "Learning Python, Fifth Edition" by Mark Lutz at the start of Chapter 10. I would strongly recommend this book to any beginner when starting their Python journey.
 
 <b> Parentheses are optional </b>
 <br>
