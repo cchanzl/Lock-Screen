@@ -14,7 +14,7 @@ These 3 syntax differences are discussed in greater detail in the book "Learning
 <b> Parentheses are optional </b>
 <br>
 
-To be updated...
+Including parenthese when typing out formulas has become sort of a second habit, having worked primarily on Excel throughout my whole career. Formulas such as =sum(), =vlookup() and =indirect() makes sense. This made sense when i started out on C++ as well, happily wrapping for() and while() loop's arguments within (). In Python, parentheses are not strictly necessary (in some cases) for expressions although it would still run fine including them. I would note that in other ways, parentheses are absolutely necessary, such as enclosing arguments in a type-specifc method method like sorted() or count(). 
 
 <b> End-of-line is end of statement </b>
 <br>
