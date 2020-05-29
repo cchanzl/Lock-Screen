@@ -18,7 +18,7 @@ zip() is then used to create a dictionary of the inputs. This is the Python equi
 
 Error and exception handling have not been built into the code yet. This is definitely something I should pick up again in another post as there are many ways the code can break with different inputs at the moment. But it is working as a proof of concept.
 
-<b> Scoping Scoping Scoping </b>
+<b> Scoping, Scoping and Scoping </b>
 <br>
 
 The use of the token class in C++ means that a global variable is required in the Python version as well (at this stage anyway without involving user-defined classes in Python). This takes the form of dict_expr and list_keys, both of which are fundamental in the code, being reference in expression(), term() and primary(). 
