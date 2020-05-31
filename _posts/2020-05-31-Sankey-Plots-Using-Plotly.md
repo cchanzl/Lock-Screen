@@ -5,7 +5,7 @@ category: python
 date: 2020-05-31
 ---
 
-In this post, i would visualise the change in monthly expenses since i moved to London using Plotly, Python's visualisation library. The source code for this visualisation is inlcuded in the plot below. There are significant improvements to be made in the way data is treated and subsequently used in order to derive the plot.
+In this post, i would visualise the change in monthly expenses since i moved to London using Plotly, Python's visualisation library. The source code for this visualisation is included in the gist below. There are significant improvements to be made in the way data is treated and subsequently used in order to derive the plot.
 
 For example, a multi-dimensional list-based array is used to transform a table in excel into the necessary inputs into the Sankey trace. A dictionary approach with the appropriate keys would be more efficient and easier to access the underlying values. Also, the colours and labels can be further refined to provide better information and visual cues.
 
