@@ -15,5 +15,6 @@ In summary, this plot is a good start to understanding the vast library of trace
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-{% include Sankey.html %}
+<center> {% include Sankey.html %} </center>
 
+<script src="https://gist.github.com/cchanzl/6b3b584633e47cd40541aaaa332d9d60.js"></script>
