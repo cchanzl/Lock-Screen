@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sankey Plot Using Plotly and Pandas"
+title: "Sankey Plot Using Plotly"
 category: python
 date: 2020-05-31
 ---
