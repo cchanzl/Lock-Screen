@@ -12,3 +12,5 @@ The annual MAS insurer returns is selected because of the amount of useful infor
 The source code for this scraping exercise is below, accompanied by a line graph comparing the historical CAR position of selected insurers in the market.
 
 A potential future improvement would be to optimise the code such that it runs faster for longer reporting years and insurers. With this, a future use case would be to automate the production of a dashboard for an insurer's single year of return, showcasing key financial information.
+
+<script src="https://gist.github.com/cchanzl/6b3b584633e47cd40541aaaa332d9d60.js"></script>
