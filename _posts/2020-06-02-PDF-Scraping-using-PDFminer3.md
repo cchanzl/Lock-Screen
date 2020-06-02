@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PDF Scraping of MAS Returns"
+title: "PDF Scraping using PDFminer3"
 category: python
 date: 2020-06-02
 ---
