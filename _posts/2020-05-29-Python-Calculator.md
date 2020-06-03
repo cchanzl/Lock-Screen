@@ -25,7 +25,7 @@ The use of the token class in C++ means that a global variable is required in th
 
 There are also multiple occasions where I used local variables, such as t, a, x and y for iteration purposes. This caused some issues in the beginning and probably not best practice so there is room for improvement here.
 
-<b> Lists, Sets and Dictionaries are your best friend </b>
+<b> Lists, Sets and Dictionaries are your best friends </b>
 <br>
 
 Understanding the syntax, expressions and methods of lists, sets and dictionaries is crucial here. The ability of sets to allow comparisons of overlapping members is fundamental to how dictionary() works. Future improvement can also be easily allowed for by adding members into char_set, for example to include functionality for factorial calculations. At the start, I struggled with the slicing operation within dictionary() with the error "TypeError: can only assign an iterable" for a good hour before realising that X[0:2] = 1 does not work as "1" is not an iterable. X[0:2] = [1] works as s list slice must be filled by a list. I guess this is part of the learning process.
