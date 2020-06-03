@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sankey Plot Using Plotly"
+title: "Sankey Plot using Plotly"
 category: python
 date: 2020-05-31
 ---
