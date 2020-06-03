@@ -15,6 +15,6 @@ A potential future improvement would be to optimise the code such that it runs f
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<center> {% include Sankey.html %} </center>
+<center> {% include Line.html %} </center>
 
 <script src="https://gist.github.com/cchanzl/6b3b584633e47cd40541aaaa332d9d60.js"></script>
