@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title | markdownify }}</h1>
 <br>
 <h2>{{ page.date | date_to_string }}</h2>
 
