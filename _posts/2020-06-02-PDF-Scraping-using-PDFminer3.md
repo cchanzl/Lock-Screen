@@ -11,7 +11,7 @@ The annual MAS insurer returns is selected because of the amount of useful infor
 
 I would explore other parts of the returns such as Form 6 where it would not be trivial in identifying and allocating values to the various columns. The source code for this scraping exercise is below, accompanied by a line graph comparing the historical CAR position of selected insurers in the market.
 
-A potential future improvement would be to optimise the code such that it runs faster for longer reporting years and insurers. With this, a future use case would be to automate the production of a dashboard for an insurer's single year of return, showcasing key financial information.
+A potential future improvement would be to optimise the code such that it runs faster. Exception handling can also be improved by storing extracted data in an intermediate text file after every PDF is scanned. This is data which would otherwise be lost should an error occur halfway through execution. With this, a future use case would be to automate the production of a dashboard for an insurer's single year of return, showcasing key financial information.
 
 
 <center> {% include Line.html %} </center>
