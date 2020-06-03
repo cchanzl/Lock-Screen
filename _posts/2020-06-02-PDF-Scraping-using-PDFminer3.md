@@ -13,7 +13,6 @@ I would explore other parts of the returns such as Form 6 where it would not be 
 
 A potential future improvement would be to optimise the code such that it runs faster for longer reporting years and insurers. With this, a future use case would be to automate the production of a dashboard for an insurer's single year of return, showcasing key financial information.
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <center> {% include Line.html %} </center>
 
