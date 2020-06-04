@@ -2,7 +2,7 @@
 layout: post
 title: "Motor Underwriting Cycle"
 category: Tableau
-date: 2020-05-25
+date: 2020-03-25
 ---
 
 In this post, I would use historical data from Singapore's motor insurance market to showcase the underwriting cycle experienced between 2005 to 2014. The data source supporting this visualisation is from the Monetary Authority of Singapore, based on their collection of annual insurance returns of insurers in the local market. I would make another post on how to efficiently extract information from these insurance returns using Python.
