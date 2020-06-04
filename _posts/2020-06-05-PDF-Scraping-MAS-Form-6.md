@@ -9,7 +9,7 @@ Following from the initial lightweight exercise of <a href="https://cchanzl.gith
 
 The process is largely similar from the previous exercise, except that it is more involved as we are no longer extracting a single number which is clearly identifiable by a symbol. I will update this post with the detailed steps soon but you can see that at the end of the process, the output is a clearly delimited text file. We can then build up a sizeable database upon which interesting visualisation and insights can be obtained by iterating this across multiple insurers and reporting years.
 
-<img src="/images/Form6.png" style="width: auto; height: auto;max-width: 500px;max-height: 500px" class="center">
+<img src="/images/Form6.png" style="width: auto; height: auto;max-width: 1500px;max-height: 1500px" class="center">
 <p style="text-align:center">Sample output</p>
 
 <script src="https://gist.github.com/cchanzl/30517ae13584c9ab5d1d558cde4e50ee.js"></script>
