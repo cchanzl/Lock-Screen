@@ -11,23 +11,27 @@ The process is largely similar from the previous exercise, except that it is mor
 
 <b> # Extract raw text file of relevant pages </b>
 <br>
-To be updated...
+This part of the code is where the PDFplumber module is required, to convert the relevant sections to text. First, we need to identify where Form 6 resides. Due to changes in formatting over the years, Form 6 - SIF can be split into two separate pages. Hence, the page_end identifier is where a page contains both "FORM 6" and "Overseas Insurance Fund", which is the page after SIF Form 6.
 
 <b> # Extract values from Form 6 </b>
 <br>
-To be updated...
+Once we have the relevant section as text produced as temp.txt, we can see that where values are extracted, they are often extracted as a single line after "Row No.". The unique identifier used to locate the start of the line of values is then (" " + str(row_number[i]) + " ") or (row_number[i]) + " "), where the latter is to account for Row No. starting at index 0.
+
+However, this poses a challenge in cases where formulas in the form such as (10 + 11 - 12) triggers the IF statement as well. This is resolved by using another condition, relying on the apperance of ")". While this will create dupliates for longer formulas such as (13 - 26 - 27 - 30 - 31), we will deal with duplicate using Pandas df methods later.
 
 <b> # Cleaning up </b>
 <br>
-To be updated...
+With the right section and values extracted, we then proceed to clean up the file for lines starting with formulas. While lines with values are correctly extracted, the start of the line may contain some formulas as mentioned form the previous section. This part of the code is to remove any additional prefixes to our data and to add delimiters.
 
 <b> # Creating Pandas df </b>
 <br>
-To be updated...
+Pandas is again used to create dataframe to which we can add descriptive rows and column headers. These are saved in another text file. We also take the opportunity here to apply simple verifiation checks to ensure that the data is correctly cleansed and nothing escapes form the previous steps.
+
+An important step here is to convert the str in df to int, particularly where some Forms display negative used "()" while others use "-". Hence, df.replace() is used to find and replace all "()" to be "-" which allows easy conversion to int.
 
 <b> # Validation </b>
 <br>
-To be updated...
+The last part if to then conduct a quick check that sum of certain rows in a column equals another row extracted. For now, this check is only performed on underwriting results. This validation check can be extended to other rows and to the column total as well.
 
 <b> Final Output </b>
 <br>
