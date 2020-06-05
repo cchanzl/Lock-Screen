@@ -2,7 +2,7 @@
 layout: post
 title: "Collatz Sequence"
 category: cpp
-date: 2020-05-23
+date: 2020-05-09
 ---
 
 A simple code exploring the Collatz sequence.
