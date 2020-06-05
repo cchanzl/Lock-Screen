@@ -35,7 +35,7 @@ The last part if to then conduct a quick check that sum of certain rows in a col
 
 <b> Final Output </b>
 <br>
-You can see from the picture below that the output at the end of the process is a clearly delimited text file. We can then build up a sizeable database upon which interesting visualisation and insights can be obtained by iterating this across multiple insurers and reporting years. I will leave the analysis for another post in the future.
+You can see from the picture below that the output at the end of the process is a clearly delimited text file. We can then build up a sizeable database upon which interesting visualisation and insights can be obtained by iterating this across multiple insurers and reporting years. I will leave this analysis for another post in the future, ending here with a quick insight gained from the historical Form 6 of an insurer A where we can clearly see a spike in Net Loss Ratio (NWP/Net Claims Settled) in 2015.
 
 <center> {% include line_NLR.html %} </center>
 
