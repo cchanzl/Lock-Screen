@@ -23,7 +23,7 @@ However, this poses a challenge in cases where formulas in the form such as (10 
 <br>
 With the right section and values extracted, we then proceed to clean up the file for lines starting with formulas. While lines with values are correctly extracted, the start of the line may contain some formulas as mentioned form the previous section. This part of the code is to remove any additional prefixes to our data and to add delimiters.
 
-<b> # Creating Pandas df </b>
+<b> # Creating Pandas df structure </b>
 <br>
 Pandas is again used to create dataframe to which we can add descriptive rows and column headers. These are saved in another text file. We also take the opportunity here to apply simple verifiation checks to ensure that the data is correctly cleansed and nothing escapes form the previous steps.
 
