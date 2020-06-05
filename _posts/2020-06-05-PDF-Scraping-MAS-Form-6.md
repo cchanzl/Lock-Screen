@@ -39,10 +39,8 @@ You can see from the picture below that the output at the end of the process is 
 
 <center> {% include line_NLR.html %} </center>
 
-<div id="images">
-    <iframe src="https://giphy.com/embed/gJnNfU4nvfSCBqfRSt" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gJnNfU4nvfSCBqfRSt">via GIPHY</a></p>
-    <img src="/images/Form6.PNG" style="width: auto; height: auto;max-width: 500px;max-height: 500px" class="center">
-    <p style="text-align:center">Sample output</p>
-</div>
+<img src="/images/Form6.PNG" style="width: auto; height: auto;max-width: 500px;max-height: 500px" class="center">
+<p style="text-align:center">Sample output</p>
+
 
 <script src="https://gist.github.com/cchanzl/30517ae13584c9ab5d1d558cde4e50ee.js"></script>
