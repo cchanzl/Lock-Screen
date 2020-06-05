@@ -7,7 +7,7 @@ date: 2020-06-05
 
 Following from the initial lightweight exercise of <a href="https://cchanzl.github.io/python/2020/06/02/PDF-Scraping-MAS-Form-23"> obtaining Capital Adequacy Ratios </a> of insurers in the Singpaore market, i would go one step further to employ a similar technique in scraping the complete table in  MAS Form 6 - Statements of Premiums, Claims and Underwriting Results for SIF.
 
-The process is largely similar from the previous exercise, except that it is more involved as we are no longer extracting a single number that is clearly identifiable by a symbol ("%"). The step-by-step process and source code is shown below.
+The process is largely similar from the previous exercise, except that it is more involved as we are no longer extracting a single number that is clearly identifiable by a symbol ("%"). Follow the comments in the code relating to each step below.
 
 <b> # Extract raw text file of relevant pages </b>
 <br>
