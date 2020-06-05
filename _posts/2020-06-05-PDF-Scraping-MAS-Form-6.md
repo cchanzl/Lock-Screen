@@ -37,6 +37,8 @@ The last part if to then conduct a quick check that sum of certain rows in a col
 <br>
 You can see from the picture below that the output at the end of the process is a clearly delimited text file. We can then build up a sizeable database upon which interesting visualisation and insights can be obtained by iterating this across multiple insurers and reporting years. I will leave the analysis for another post in the future.
 
+<div style="width:100%;height:0;padding-bottom:49%;position:relative;"><iframe src="https://giphy.com/embed/gJnNfU4nvfSCBqfRSt" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/gJnNfU4nvfSCBqfRSt">via GIPHY</a></p>
+
 <img src="/images/Form6.PNG" style="width: auto; height: auto;max-width: 500px;max-height: 500px" class="center">
 <p style="text-align:center">Sample output</p>
 
