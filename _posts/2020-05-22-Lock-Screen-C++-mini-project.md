@@ -2,7 +2,7 @@
 layout: post
 title: "Lock Screen C++ mini project"
 category: cpp
-date: 2020-05-20
+date: 2020-05-22
 ---
 
 So this mini-project began with the intent of updating my iphone lock screen with something interesting. Then the idea came - Why not use the opportunity to practice coding?
