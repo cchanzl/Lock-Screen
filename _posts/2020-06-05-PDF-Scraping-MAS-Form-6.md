@@ -42,9 +42,7 @@ You can see from the picture below that the output at the end of the process is 
 
 <div id="images">
   <img src="/images/form6_line.gif" style="width: auto; height: auto;max-width: 500px;max-height: 500px">
-  <img src="/images/form6_line.gif" style=" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
-  <img src="/images/form6_line.gif" style=" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
-  <img src="/images/Form6.PNG" style="width: auto; height: auto;max-width: 500px;max-height: 500px" />
+  <img src="/images/Form6.PNG" style="width: auto; height: auto;max-width: 500px;max-height: 500px">
   <p style="text-align:center">Sample output and analysis</p>
 </div>
 
