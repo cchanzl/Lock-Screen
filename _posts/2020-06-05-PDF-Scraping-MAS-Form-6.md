@@ -32,7 +32,7 @@ An important step here is to convert the str in df to int, particularly where so
 <b> # Validation </b>
 <br>
 The last part if to then conduct a quick check that sum of certain rows in a column equals another row extracted. For now, this check is only performed on underwriting results. This validation check can be extended to other rows and to the column total as well.
-
+![alt text](/images/form6_line.gif)
 <b> Final Output </b>
 <br>
 You can see from the picture below that the output at the end of the process is a clearly delimited text file. We can then build up a sizeable database upon which interesting visualisation and insights can be obtained by iterating this across multiple insurers and reporting years. I will leave this analysis for another post in the future, ending here with a quick insight gained from the historical Form 6 of an insurer A where we can clearly see a spike in Net Loss Ratio (NWP/Net Claims Settled) in 2015. We can also see that the 3 largest book in Insurer's A portfolio are Motor, Health and WIC by looking at how Total NLR trends historically.
