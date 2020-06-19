@@ -65,7 +65,7 @@ The last step when you are ready is to commit and push the dashboard to Heroku f
 
 It took me a day to set up the dashboard from scratch and possibly another two weeks to have a fully functional dashboard (including data scraping and exploring the various Plotly graphs). The complete source code for the visualisation is shown below and also available in my Github repo.
 
-<script src="https://gist.github.com/cchanzl/c36a304ce98a94642e83239f22bc186a.js"></script>
+<script src="https://gist.github.com/cchanzl/d182756bf8ba8baf554aff34f082c5a6.js"></script>
 
 
 
