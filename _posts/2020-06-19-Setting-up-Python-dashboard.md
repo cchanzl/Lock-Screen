@@ -24,16 +24,16 @@ Before you put in hours setting up your visualisations, we need to ensure that y
 
 The first few steps up to step 2 should not take too long. I had some difficulty with creating a virtual environment as the path was not found. But a quick google search did the trick.
 
-For step 3, you need to be careful when creating Procfile. As highlighted in <a href="https://devcenter.heroku.com/articles/procfile"> Heroku's documentation </a>, the Procfile is always a simple text file that is named Procfile without a file extension. For example, Procfile.txt is not valid. I made the simple mistake of creating a text file and simply naming it as required. If you are having difficulty, feel free to take a copy of the Procfile i used from my repo.
+For step 3, you need to be careful when creating Procfile. As highlighted in <a href="https://devcenter.heroku.com/articles/procfile"> Heroku's documentation </a>, the Procfile is always a simple text file that is named Procfile without a file extension. For example, `Procfile.txt` is not valid. I made the simple mistake of creating a text file and simply naming it as required. If you are having difficulty, feel free to take a copy of the Procfile i used from my repo.
 
-Another misstep i made was when creating "requirements.txt". This can be created easily through the Python terminal in Pycharm. What you need to remember is to update this file when you add packages in your source code, especially when you update your dashboard with new graphs.
+Another misstep i made was when creating `requirements.txt`. This can be created easily through the Python terminal in Pycharm. What you need to remember is to update this file when you add packages in your source code, especially when you update your dashboard with new graphs.
 
 By the end of this step, you would have created a free Heroku account and am able to now view/embed the sample dashboard on your site.
 
 <b> Step 2: Customising the layout of your dashboard </b>
 <br>
 
-This step is where you prescribe a format for your dashboard. For this, I relied heavily on the steps <a href="https://www.statworx.com/at/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/"> in this tutorial. </a> Without changing the key portion of the code which enables deployment to Heroku and focussing the changes on <span style="background-color: #D3D3D3">app.layout</span>, i was able to deploy the dashboard in this tutorial instead of the example in step 1.
+This step is where you prescribe a format for your dashboard. For this, I relied heavily on the steps <a href="https://www.statworx.com/at/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/"> in this tutorial. </a> Without changing the key portion of the code which enables deployment to Heroku and focussing the changes on `app.layout`, i was able to deploy the dashboard in this tutorial instead of the example in step 1.
 
 The reason for this is that the source code for the dashboard in this tutorial is scalable. This lets me make subsequent changes suited to my preference. For example, i can now update the CSS such that the background of the dashboard is white and change the layout to be a single column (or really any other layout).
 
@@ -44,7 +44,7 @@ An important part of the code which will be used repeatedly would be `app.callba
 <b> Step 3: Adding visualisations </b>
 <br>
 
-Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in "app.callback()" later in the code. That is also where we will customise our visualisation, including its type and styling.
+Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
 
 Next, we can then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
@@ -53,7 +53,7 @@ Next, we can then create the visualisation. This is done in the code below. You 
 <b> Step 4: Debugging </b>
 <br>
 
-During the course of setting up the dashboard, you can debug it by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file "app.py". This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
+During the course of setting up the dashboard, you can debug it by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file `app.py`. This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
 
 <b> Step 5: Pushing to Heroku </b>
 <br>
