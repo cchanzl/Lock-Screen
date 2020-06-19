@@ -53,7 +53,7 @@ Visualisations is first referenced in the app.layout as seen in the code below. 
 
 <script src="https://gist.github.com/cchanzl/ed846dbd41b24c57fcb1fe7ec4cce788.js"></script>
 
-The next step is to then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. any graph in Plotly's library would work here and the syntax is the same so i would not elborate further.
+The next step is to then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
 <script src="https://gist.github.com/cchanzl/96024de0f4e21816573eda12716fa825.js"></script>
 
@@ -64,6 +64,7 @@ During the course of setting up the dashboard, you can debug it by tpying python
 
 <b> Step 5: Pushing to Heroku </b>
 <br>
+
 The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this form Step 1 above.
 
 <script src="https://gist.github.com/cchanzl/c36a304ce98a94642e83239f22bc186a.js"></script>
