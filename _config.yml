@@ -2,3 +2,9 @@ name: the coding wharf
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
