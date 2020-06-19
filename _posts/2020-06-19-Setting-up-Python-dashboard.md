@@ -65,7 +65,9 @@ During the course of setting up the dashboard, you can debug it by tpying python
 <b> Step 5: Pushing to Heroku </b>
 <br>
 
-The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this form Step 1 above.
+The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this from Step 1 above.
+
+The complete source code for the visualisation is shown below and also available in my Github repo.
 
 <script src="https://gist.github.com/cchanzl/c36a304ce98a94642e83239f22bc186a.js"></script>
 
