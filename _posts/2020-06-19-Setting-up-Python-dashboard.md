@@ -33,7 +33,7 @@ By the end of this step, you would have created a free Heroku account and am abl
 <b> Step 2: Customising the layout of your dashboard </b>
 <br>
 
-This step is where you prescribe a format for your dashboard. For this, I relied heavily on the steps <a href="https://www.statworx.com/at/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/"> in this tutorial. </a> Without changing the key portion of the code which enables deployment to Heroku and focussing the changes on "app.layout=", i was able to deploy the dashboard in this tutorial instead of the example in step 1.
+This step is where you prescribe a format for your dashboard. For this, I relied heavily on the steps <a href="https://www.statworx.com/at/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/"> in this tutorial. </a> Without changing the key portion of the code which enables deployment to Heroku and focussing the changes on <span style="background-color: #D3D3D3">app.layout()</span>, i was able to deploy the dashboard in this tutorial instead of the example in step 1.
 
 The reason for this is that the source code for the dashboard in this tutorial is scalable. This lets me make subsequent changes suited to my preference. For example, i can now update the CSS such that the background of the dashboard is white and change the layout to be a single column (or really any other layout).
 
