@@ -39,11 +39,7 @@ The reason for this is that the source code for the dashboard in this tutorial i
 
 An important part of the code which will be used repeatedly would be app.callback(). This is where the integration with Plotly comes in for the next step.
 
-```
-@app.callback(Output('nwp_bar', 'figure'),
-              [Input('lobselector', 'value'), Input('insurerselector', 'value')])
-def update_lossratio(lobselector, insurerselector):
-```
+<script src="https://gist.github.com/cchanzl/5f601884f26e955b9379985d3ca43918.js"></script>
 
 <b> Step 3: Adding visualisations </b>
 <br>
@@ -64,7 +60,10 @@ During the course of setting up the dashboard, you can debug it by tpying python
 
 The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this from Step 1 above.
 
-The complete source code for the visualisation is shown below and also available in my Github repo.
+<b> Conclusion </b>
+<br>
+
+It took me a day to set up the dashboard from scratch and possibly another two weeks to have a fully functional dashboard (including data scraping and exploring the various Plotly graphs). The complete source code for the visualisation is shown below and also available in my Github repo.
 
 <script src="https://gist.github.com/cchanzl/c36a304ce98a94642e83239f22bc186a.js"></script>
 
