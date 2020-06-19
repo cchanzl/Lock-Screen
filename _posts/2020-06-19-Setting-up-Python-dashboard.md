@@ -39,18 +39,18 @@ The reason for this is that the source code for the dashboard in this tutorial i
 
 An important part of the code which will be used repeatedly would be app.callback(). This is where the integration with Plotly comes in for the next step.
 
-<script src="https://gist.github.com/cchanzl/5f601884f26e955b9379985d3ca43918.js"></script>
-
-<b> Step 3: Adding visualisations </b>
-<br>
-
-Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in "app.callback()" later in the code. That is also where we will customise our visualisation, including its type and styling.
 ```
 @app.callback(Output('nwp_bar', 'figure'),
               [Input('lobselector', 'value'), Input('insurerselector', 'value')])
 def update_lossratio(lobselector, insurerselector):
 ```
-The next step is to then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
+
+<b> Step 3: Adding visualisations </b>
+<br>
+
+Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in "app.callback()" later in the code. That is also where we will customise our visualisation, including its type and styling.
+
+Next, we can then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
 <script src="https://gist.github.com/cchanzl/96024de0f4e21816573eda12716fa825.js"></script>
 
