@@ -1,8 +1,4 @@
 name: the coding wharf
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-       css_class: 'highlight'
+highlighter: rouge
