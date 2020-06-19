@@ -60,6 +60,13 @@ The next step is to then create the visualisation. This is done in the code belo
 <b> Step 4: Debugging </b>
 <br>
 
-During the course of 
+During the course of setting up the dashboard, you can debug it by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file "app.py". This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
+
+<b> Step 5: Pushing to Heroku </b>
+<br>
+The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this form Step 1 above.
+
+<script src="https://gist.github.com/cchanzl/c36a304ce98a94642e83239f22bc186a.js"></script>
+
 
 
