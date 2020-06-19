@@ -34,3 +34,17 @@ For step 3, you need to be careful when creating Procfile. As highlighted in <a 
 Another misstep i made was when creating "requirements.txt". This can be created easily through the Python terminal in Pycharm. What you need to remember is to update this file when you add packages in your source code, especially when you update your dashboard with new graphs.
 
 By the end of this step, you would have created a free Heroku account and am able to now view/embed the sample dashboard on your site.
+
+<b> Step 2: Customising the layout of your dashboard </b>
+<br>
+
+This step is where you prescribe a format for your dashboard. For this, I relied heavily on the steps <a href="https://www.statworx.com/at/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/"> in this tutorial. </a> Without changing the key portion of the code which enables deployment to Heroku and focussing the changes on "app.layout=", i was able to deploy the dashboard in this tutorial instead of the example in step 1.
+
+The reason for this is that the source code for the dashboard in this tutorial is scalable. This lets me make subsequent changes suited to my preference. For example, i can now update the CSS such that the background of the dashboard is white and change the layout to be a single column (or really any other layout).
+
+An important part of the code which will be used repeatedly would be app.callback(). This is where the integration with Plotly comes in for the next step.
+
+<b> Step 3: Adding visualisations </b>
+<br>
+
+
