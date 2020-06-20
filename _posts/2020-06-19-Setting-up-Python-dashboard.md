@@ -37,7 +37,7 @@ This step is where you prescribe a format for your dashboard. For this, I relied
 
 The reason for this is that the source code for the dashboard in this tutorial is scalable. This lets me make subsequent changes suited to my preference. For example, i can now update the CSS such that the background of the dashboard is white and change the layout to be a single column (or really any other layout).
 
-An important part of the code which will be used repeatedly would be ```app.callback()```. This is where the integration with Plotly comes in for the next step.
+An important part of the code which will be used repeatedly would be `app.callback()`. This is where the integration with Plotly comes in for the next step.
 
 ```python
 @app.callback(Output('nwp_bar', 'figure'),
@@ -52,7 +52,73 @@ Visualisations is first referenced in the app.layout as seen in the code below. 
 
 Next, we can then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
-<script src="https://gist.github.com/cchanzl/96024de0f4e21816573eda12716fa825.js"></script>
+```python
+@app.callback(Output('ranking_line', 'figure'),
+              [Input('lobselector', 'value')])
+def update_market_rank(lobselector):
+    # STEP 1
+    trace = []
+    # STEP 2
+    # Draw and append traces for each stock
+    for lob in lobselector:
+        df_rank = df2[['year', 'insurer_name', 'Description', lob]]
+        df_rank = df_rank[df_rank.Description == 'GWP - Direct business']
+        df_rank_final = pd.DataFrame(columns=['year', 'insurer_name', 'Description', lob, 'Market_Rank'])
+        for y in years:
+            df_rank_y = df_rank[df_rank.year == y]
+            df_rank_y['Market_Rank'] = df_rank_y[lob].rank(method='max', ascending=False)
+            df_rank_final = pd.concat([df_rank_final, df_rank_y])
+        for i in unique:
+            df_rank_final_i = df_rank_final[df_rank_final.insurer_name == i]
+            trace.append(go.Scatter(x=df_rank_final_i['year'].tolist(),
+                                    y=df_rank_final_i['Market_Rank'].tolist(),
+                                    opacity=0.7,
+                                    name=i + " - " + lob,
+                                    legendgroup=i,
+                                    marker_size=25,
+                                    textposition='bottom center',
+                                    text=df_rank_final_i['insurer_name'] + " - " + lob,
+                                    hovertemplate=
+                                    "<b>%{text}</b><br>" +
+                                    "Year: %{x:.f}<br>" +
+                                    "Rank: %{y:.s}<br>" +
+                                    "<extra></extra>",
+                                    ))
+    # STEP 3
+    traces = [trace]
+    data = [val for sublist in traces for val in sublist]
+    # STEP 4
+    figure = {'data': data,
+              'layout': go.Layout(
+                  margin=dict(b=40, t=10),  # l, r, b, t
+                  paper_bgcolor='rgba(0, 0, 0, 0)',
+                  plot_bgcolor='rgba(0, 0, 0, 0)',
+                  hovermode='closest',
+                  showlegend=True,
+                  height=600,
+                  autosize=True,
+                  yaxis=dict(
+                      range=[0, len(unique) + 1],
+                      autorange="reversed",
+                      title='Market Ranking',
+                      tickformat=".s",
+                      titlefont=dict(
+                          family='Arial',
+                          size=15,
+                          color='lightgrey')
+                  ),
+                  xaxis=dict(
+                      title='Reporting Year',
+                      titlefont=dict(
+                          family='Arial',
+                          size=15,
+                          color='lightgrey')
+                  ),
+              ),
+              }
+
+    return figure
+```
 
 <b> Step 4: Debugging </b>
 <br>
