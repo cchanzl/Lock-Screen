@@ -37,7 +37,7 @@ This step is where you prescribe a format for your dashboard. For this, I relied
 
 The reason for this is that the source code for the dashboard in this tutorial is scalable. This lets me make subsequent changes suited to my preference. For example, i can now update the CSS such that the background of the dashboard is white and change the layout to be a single column (or really any other layout).
 
-An important part of the code which will be used repeatedly would be `app.callback()`. This is where the integration with Plotly comes in for the next step.
+An important part of the code which will be used repeatedly would be ```app.callback()```. This is where the integration with Plotly comes in for the next step.
 
 ```python
 @app.callback(Output('nwp_bar', 'figure'),
