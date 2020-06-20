@@ -50,6 +50,20 @@ def update_lossratio(lobselector, insurerselector):
 
 Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
 
+```python
+    html.Div(className='row',  # Define the row element
+             children=[
+                 html.Div(className='nine columns div-user-controls',
+                          children=[
+                              html.H2('Market Ranking of General Insurers in Singapore'),
+                              html.P('''Ranking based on GWP - Direct business (SIF only)'''),
+                              dcc.Graph(id='ranking_line', config={'displayModeBar': False}),
+
+                              html.H2('Net Written Premium of General Insurers in Singapore'),
+                              html.P('''Net of reinsurance cessions'''),
+                              dcc.Graph(id='nwp_bar', config={'displayModeBar': False}),
+```
+
 Next, we can then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
 ```python
