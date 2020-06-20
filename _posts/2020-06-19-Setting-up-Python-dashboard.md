@@ -15,18 +15,18 @@ Before I jump into the steps, we would need the following installed. If you have
 1. Pycharm
 2. Git Bash (required for pushing updates to Heroku)
 
-There are other requirements (such as Git Bash and a Heroku account) but we will get to these as we go through each step.
+There are other requirements (such as Plotly and a Heroku account) but we will get to these as we go through each step.
 
 <b> Step 1: Deploy a sample dashboard </b>
 <br>
 
 Before you put in hours setting up your visualisations, we need to ensure that you are able to set up your machine to deploy them. Afterall, there is not really any point preparing visualisations for an audience of one. To do this, you need to follow <a href="https://dash.plotly.com/deployment"> this guide. </a> I would not repeat the steps in the guide as they are fairly straightforward. However, i would touch on my experience, having been through it.
 
-The first few steps up to step 2 should not take too long. I had some difficulty with creating a virtual environment as the path was not found. But a quick google search did the trick.
+The first two steps should not take too long. I had some difficulty with creating a virtual environment as the path was not found. But a quick google search did the trick.
 
 For step 3, you need to be careful when creating Procfile. As highlighted in <a href="https://devcenter.heroku.com/articles/procfile"> Heroku's documentation </a>, the Procfile is always a simple text file that is named Procfile without a file extension. For example, `Procfile.txt` is not valid. I made the simple mistake of creating a text file and simply naming it as required. If you are having difficulty, feel free to take a copy of the Procfile i used from my repo.
 
-Another misstep i made was when creating `requirements.txt`. This can be created easily through the Python terminal in Pycharm. What you need to remember is to update this file when you add packages in your source code, especially when you update your dashboard with new graphs.
+Another misstep i made was when creating `requirements.txt`. This can be created easily through the Python terminal in Pycharm. What you need to remember is to update this file as you add packages (such as Pandas) in your source code, especially when you update your dashboard with new graphs.
 
 By the end of this step, you would have created a free Heroku account and am able to now view/embed the sample dashboard on your site.
 
@@ -48,7 +48,7 @@ def update_lossratio(lobselector, insurerselector):
 <b> Step 3: Adding visualisations </b>
 <br>
 
-Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be reference in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
+Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be referenced in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
 
 ```python
     html.Div(className='row',  # Define the row element
@@ -64,7 +64,7 @@ Visualisations is first referenced in the app.layout as seen in the code below. 
                               dcc.Graph(id='nwp_bar', config={'displayModeBar': False}),
 ```
 
-Next, we can then create the visualisation. This is done in the code below. You would have the same block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
+Next, we can then create the visualisation. This is done in the code below. You would have a similar block of code for every visualisation in the dashboard. Any graph in Plotly's library would work here and the syntax is the same so i would not elaborate further.
 
 ```python
 @app.callback(Output('ranking_line', 'figure'),
@@ -137,12 +137,12 @@ def update_market_rank(lobselector):
 <b> Step 4: Debugging </b>
 <br>
 
-During the course of setting up the dashboard, you can debug it by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file `app.py`. This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
+During the course of setting up the dashboard, you can debug by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file `app.py`. This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
 
 <b> Step 5: Pushing to Heroku </b>
 <br>
 
-The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. you would have already done this from Step 1 above.
+The last step when you are ready is to commit and push the dashboard to Heroku for deployment on your site. You would have already done this from Step 1 above, when setting up the dashboard for the first time.
 
 <b> Conclusion </b>
 <br>
