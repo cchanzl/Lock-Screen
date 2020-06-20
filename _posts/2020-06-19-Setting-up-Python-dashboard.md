@@ -39,6 +39,12 @@ The reason for this is that the source code for the dashboard in this tutorial i
 
 An important part of the code which will be used repeatedly would be `app.callback()`. This is where the integration with Plotly comes in for the next step.
 
+```python
+@app.callback(Output('nwp_bar', 'figure'),
+              [Input('lobselector', 'value'), Input('insurerselector', 'value')])
+def update_lossratio(lobselector, insurerselector):
+```
+
 <script src="https://gist.github.com/cchanzl/5f601884f26e955b9379985d3ca43918.js"></script>
 
 <b> Step 3: Adding visualisations </b>
