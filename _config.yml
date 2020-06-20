@@ -1,4 +1,5 @@
 name: the coding wharf
 markdown: kramdown
+site.baseurl: "cchanzl.github.io"
 permalink: /:categories/:year/:month/:day/:title
 highlighter: rouge
