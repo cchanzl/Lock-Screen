@@ -45,8 +45,6 @@ An important part of the code which will be used repeatedly would be ```app.call
 def update_lossratio(lobselector, insurerselector):
 ```
 
-<script src="https://gist.github.com/cchanzl/5f601884f26e955b9379985d3ca43918.js"></script>
-
 <b> Step 3: Adding visualisations </b>
 <br>
 
