@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using manim to create a video"
+title: "Using manim to create videos"
 category: python
 date: 2020-09-25
 ---
