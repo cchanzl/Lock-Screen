@@ -12,3 +12,5 @@ This post is to showcase my implmentation of a sudoku recursive solver in C++ as
   <img src="/images/Sudoku_solution.jpg" style="width: auto; height: auto;max-width: 500px;max-height: 500px">
   <p style="text-align:center">Sample analysis and output</p>
 </div>
+
+<script src="https://gist.github.com/cchanzl/b964c513c52ec98f6fd5949ba304c97d.js"></script>
