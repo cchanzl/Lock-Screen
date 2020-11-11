@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sudoku Solver"
-category: C++
+category: cpp
 date: 2020-11-04
 ---
 
