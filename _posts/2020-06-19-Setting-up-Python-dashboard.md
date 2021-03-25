@@ -137,7 +137,7 @@ def update_market_rank(lobselector):
 <b> Step 4: Debugging </b>
 <br>
 
-During the course of setting up the dashboard, you can debug by tpying python app.py in Pycharm Python console. This is assuming oyu named your Python file `app.py`. This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often so that i know which incremental change results in a bug.
+During the course of setting up the dashboard, you can debug by typing python app.py (or however you named your file) in Pycharm Python console. This allows you to view the dashboard locally in your browser, without deploying to Heroku. I do this every so often to debug incremental changes.
 
 <b> Step 5: Pushing to Heroku </b>
 <br>
