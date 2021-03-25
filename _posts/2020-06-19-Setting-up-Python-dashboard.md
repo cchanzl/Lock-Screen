@@ -48,7 +48,7 @@ def update_lossratio(lobselector, insurerselector):
 <b> Step 3: Adding visualisations </b>
 <br>
 
-Visualisations is first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be referenced in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
+Visualisations are first referenced in the app.layout as seen in the code below. The keyword here is "id=". This is how html recognises which visualisation to place at which location in the dashboard. The same id would then be referenced in `app.callback()` later in the code. That is also where we will customise our visualisation, including its type and styling.
 
 ```python
     html.Div(className='row',  # Define the row element
